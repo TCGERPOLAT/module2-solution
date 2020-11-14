@@ -12,6 +12,7 @@ body {
 h1 {
   font-size: 175%;
   margin-bottom: 15px;
+  margin-top: 15px;
   text-align: center;
 }
 
@@ -22,7 +23,8 @@ h1 {
 
 .section-inner {
   border: 1px solid black;
-  background-color: #e0d8cb;
+  background-color: gray;
+  opacity: 1;
 }
 
 .section-title {
@@ -38,15 +40,17 @@ h1 {
 }
 
 .section-title.chicken {
-  background-color: #f17f7f;
+  background-color: #f26f43;
+  color: black;
 }
 
 .section-title.beef {
-  background-color: #bb2828;
+  background-color: #b12800;
 }
 
 .section-title.sushi {
-  background-color: #d2a055;
+  background-color: #ffd800;
+  color: black;
 }
 
 .section-inner p {
